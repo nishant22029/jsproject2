@@ -9,6 +9,9 @@ let file3="index.html"
 console.log("file1 extension="+file1.split('.').pop())
 console.log("file2 extension="+file2.split('.').pop())
 console.log("file3 extension="+file3.split('.').pop())
+let ext1=("file1 extension="+file1.split('.').pop())
+let ext2=("file2 extension="+file2.split('.').pop())
+let ext3=("file3 extension="+file3.split('.').pop())
 
 let num1=parseInt(prompt("enter number 1"))
 let num2=parseInt(prompt("enter number 2"))
@@ -21,3 +24,7 @@ if(num1==num2){
 else
     {sum=num1+num2;
         console.log("sum of two number="+sum)}
+
+        function output(){
+            document.write("area of triangle="+area+"\t , "+"\t ,"+ext1+"\t ,"+ext2+"\t ,"+ext3+"\t , "+sum)
+        }
