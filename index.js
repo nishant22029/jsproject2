@@ -1,7 +1,7 @@
 let side1=5;
 let side2=6;
 let side3=7;
-let area=side1+side2+side3;
+
 console.log("area of triangle="+area)
 let file1="hello.java"
 let file2="Program.php"
